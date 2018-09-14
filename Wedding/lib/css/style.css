@@ -1,0 +1,227 @@
+body,html
+{
+    background-image: url("../../Photos/bg2.jpg") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+}
+
+.when
+{
+  background: url("../../Photos/1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 650px;
+    margin-top: 4%;
+}
+
+.layout1
+{
+    min-height: 650px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.names
+{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    padding-top: 15%;
+    font-weight: bolder;
+}
+
+div.calendar {
+	height:140px;
+	width:130px;
+  
+	background-color:white;
+	text-align: center;
+
+	border-radius: 			5px;
+
+	box-shadow: 		0 0 20px rgba(0,0,0,0.6);
+
+	background-image:	-webkit-radial-gradient(center, #eee, #fff);
+	background-image:	-moz-radial-gradient(center, #eee, #fff);
+
+
+	-webkit-backface-visibility:hidden;
+  
+  margin:50px auto;
+}
+
+div.calendar h1 {
+	margin:0;
+	text-align: center;
+	color:#fff;
+	font-weight: bolder;
+	font-size: 1em;
+	padding:15px;
+	border-bottom: 2px solid #1e1e1e;
+
+	background-image: -webkit-gradient(linear,left top, left bottom,color-stop(0.0,#000000),color-stop(0.85, #696868));
+	background-image: -moz-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+	background-image: -ms-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+	background-image: -o-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+	background-image: gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+
+}
+
+div.calendar p {
+	font-size: 3em;
+	line-height: 93px;
+	color:#fff;
+    background: #777;
+	font-weight: bold;
+}
+
+.save
+{
+    min-height: 100px;
+    background-color: #302f2f;
+}
+
+.save
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}
+
+.date
+{
+    border: 2px solid #777;
+    margin: 20px;
+    background: rgba(119, 119, 119, 0.3);
+    transition: 0.5s ease-in-out;
+}
+
+.date:hover
+{
+   background: rgba(119, 119, 119, 0.6); 
+    
+}
+
+.save .fa
+{
+    margin: 5%;
+}
+
+/* Start About */
+
+.about
+{
+    min-height: 550px;
+  background: url("../../Photos/2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        color: #fff;
+}
+
+.about img
+{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+     margin-top: 14%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.about img:hover
+{
+    transform: scale(1.1);
+}
+
+.about h2
+{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about p
+{
+    text-align: justify;
+    font-size: 16px;
+     min-width: 90%
+}
+
+/* End About */
+
+/* Start invitation */
+
+
+.inviteSec
+{
+    background-color: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+.dear
+{
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+
+.invite 
+{
+    border: 2px solid #777;
+    margin: 2%;
+    padding: 2%;
+    background: rgba(119, 119, 119, 0.8);
+}
+/* End invitation */
+
+/* Start address */
+
+.ka3a
+{
+    min-height: 250px;
+    background: #141414;
+}
+
+.address
+{
+    color: #fff;
+    font-size: 30px;
+    margin: 168px auto;
+    text-align: center;
+}
+
+/* End Address */
+
+/* Start Info */
+
+.moreInfo
+{
+    background-color: rgba(20, 20, 20, 0.6);
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 8%;
+    margin-bottom: 4%;
+}
+
+/* End Info */
+
+
+
